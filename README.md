@@ -1,4 +1,4 @@
-Chamada UpTime 
+## Chamada UpTime 
 É usada para obter informações sobre o tempo de atividade do sistema. Uptime retorna o tempo que o sistema foi inicializado até o momento
 atual, bem como como informações realizadas a carga média do sistema. Através da função "<sys/sysinfo.h>" é usada para obter 
 informações sobre o sistema. Utilzando essa também para armazenar as informações sobre o sistema. Chamando a função Sysinfo(), passando
@@ -9,7 +9,7 @@ ao tempo de atividade e ao final mostrando a saída de uma maneira legível.
 Dessa forma será mostrado de maneira programática a chamada de sistema UpTime, chamada necessária para fornecer informações essenciais
 do sistema, monitoramento de desempenho, planejamento de manutenção, disponibilidade de recursos, detecção de picos de uso. 
 
-Chamada Cat 
+## Chamada Cat 
 A chamada cat é utilizada para ler e escrever arquivos, é usada para concatenar e exibir conteúdo de arquivos de texto, por exemplo cat arquivo.txt
 exibirá o conteúdo do arquivo arquivo.txt no terminal. Utilizei as bibliotecas "fstream" para manipulação de arquivo e "string"
 para a manipulação de string, inicialmente verificando se o programa foi chamado com exartamente dois argumentos- o nome do programa e o nome 
