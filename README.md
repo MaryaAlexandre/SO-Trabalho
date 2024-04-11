@@ -1,3 +1,7 @@
+#Sistemas Operacionais - Chamadas Linux
+A proposta desse estudo consiste em desenvolver chamadas do sistema Linux de maneira aplicável em linguagens de alto nível, como a escolhida C++ que ofereça controle direto ao hardware. São programas usados para a gerência dos recursos gerenciados e oferecidos pelo sistema operacional.
+
+##Explicando as chamadas e Execução de tais
 # Chamada UpTime 
 É usada para obter informações sobre o tempo de atividade do sistema. Uptime retorna o tempo que o sistema foi inicializado até o momento atual, bem como como informações realizadas a carga média do sistema. Através da função "<sys/sysinfo.h>" é usada para obter informações sobre o sistema. Utilzando essa também para armazenar as informações sobre o sistema. Chamando a função Sysinfo(), passando um ponteiro para a estrutura "info" para armazenar as informações do sistema, se a chamada falhar uma mensagem de erro será impressa e o programa vai se encerrar. Com as informações através de "Sysinfo" executei um calculo para o tempo (horas, minutos e segundos), correspondente ao tempo de atividade e ao final mostrando a saída de uma maneira legível. 
 
